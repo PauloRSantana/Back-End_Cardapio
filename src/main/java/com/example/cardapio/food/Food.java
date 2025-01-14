@@ -25,4 +25,20 @@ public class Food {
     private String image;
 
     private Integer price;
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public Integer getPrice() {
+        return price;
+    }
 }
